@@ -14,9 +14,10 @@ const Cart = (props) => {
             <h3>Total cost: ${total}</h3>
             <ul>
                 {
-                    newDoctors.map(doctor => <ul className="fs-4">
-                        <li key={doctor.id}>{doctor.name}</li>
-                    </ul>)
+                    newDoctors.map(doctor => 
+                    <li className="fs-4" key={doctor.id}>
+                        {doctor.name}
+                    </li>)
                 }
             </ul>
         </div>
