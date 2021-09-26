@@ -1,0 +1,46 @@
+.details {
+    text-align:center;
+    border: 1px solid #0000008f;
+    margin: 10px;
+    margin-top: 50px;
+    background: linear-gradient(to bottom right, #9966ff -19%, #6699ff 100%);
+    color: #fff;
+}
+.details h4 {
+    margin-bottom: 15px;
+}
+
+.details img {
+    width: 100%;
+}
+
+.icon i {
+    margin: 15px;
+}
+
+.btn {
+    color: #000;
+    border-radius: 10px;
+    border: 0;
+    background: linear-gradient(to bottom right, #fffb00 -19%, #9e8226c2 100%);
+}
+
+.fa-linkedin-in {
+    color: #14589c;
+}
+
+.fa-twitter {
+    color: #31109e;
+}
+
+.fa-slack {
+    color: #461447;
+}
+
+.fa-envelope {
+    color: #3a13e7;
+}
+
+.fa-cart-plus {
+    color: #fff;
+}
